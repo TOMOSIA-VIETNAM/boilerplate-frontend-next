@@ -107,11 +107,8 @@ export class CodeSplittingMonitor {
   endTimer(chunkName: string) {
     const startTime = this.loadTimes.get(chunkName)
     if (startTime) {
-      const loadTime = performance.now() - startTime
-      if (process.env.NODE_ENV === 'development') {
-        // eslint-disable-next-line no-console
-        console.log(`Chunk "${chunkName}" loaded in ${loadTime.toFixed(2)}ms`)
-      }
+      // eslint-disable-next-line no-console
+      console.log(`Chunk "${chunkName}" loaded in ${performance.now() - startTime}ms`)
       this.loadTimes.delete(chunkName)
     }
   }
