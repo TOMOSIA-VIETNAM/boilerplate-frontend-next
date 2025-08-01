@@ -4,24 +4,24 @@ A modern Next.js boilerplate with NextAuth.js authentication, TypeScript, and co
 
 ## Features
 
-- ⚡ **Next.js 15** with App Router
-- 🔐 **NextAuth.js** with multiple authentication providers
-- 🎨 **Tailwind CSS** for styling
-- 📝 **TypeScript** for type safety
-- 🔒 **Protected Routes** with middleware
-- 🎯 **Custom Hooks** for authentication and API calls
-- 📱 **Responsive Design**
-- 🌐 **Comprehensive API Layer** with axios
-- 🔄 **Request/Response Interceptors**
-- 🛡️ **Error Handling & Retry Logic**
-- 📤 **File Upload/Download Support**
-- 🎛️ **Rate Limiting & Caching**
-- 🚀 **Performance Optimizations**
-- 🖼️ **Image Optimization Components**
-- ⚡ **Lazy Loading Utilities**
-- 📦 **Code Splitting Helpers**
-- 📊 **Bundle Analyzer Setup**
-- 📈 **Performance Monitoring Tools**
+- **Next.js 15** with App Router
+- **NextAuth.js** with multiple authentication providers
+- **Tailwind CSS** for styling
+- **TypeScript** for type safety
+- **Protected Routes** with middleware
+- **Custom Hooks** for authentication and API calls
+- **Responsive Design**
+- **Comprehensive API Layer** with axios
+- **Request/Response Interceptors**
+- **Error Handling & Retry Logic**
+- **File Upload/Download Support**
+- **Rate Limiting & Caching**
+- **Performance Optimizations**
+- **Image Optimization Components**
+- **Lazy Loading Utilities**
+- **Code Splitting Helpers**
+- **Bundle Analyzer Setup**
+- **Performance Monitoring Tools**
 
 ## Performance & Optimization Features
 
@@ -498,14 +498,6 @@ The API client automatically uses environment variables:
 
 - `NEXT_PUBLIC_API_URL` - Base API URL
 - `NEXT_PUBLIC_API_TIMEOUT` - Request timeout
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
